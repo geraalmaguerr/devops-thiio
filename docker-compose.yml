@@ -33,9 +33,9 @@ services:
       MYSQL_DATABASE: laravel
 
   random_http:
-    image: <your-random-http-image>
+    image: httpd:latest
     ports:
-      - "8080:8080"
+      - "8080:80"
     networks:
       - app-network
 

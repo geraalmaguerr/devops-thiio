@@ -31,24 +31,24 @@ This project sets up a Docker environment for a Laravel application with Nginx a
 
 ## Environment Configuration
 
-# Laravel Application:
+ Laravel Application:
 
-Environment variables for the database connection are configured in the docker-compose.yml file under the laravel service.
-Additional Laravel configuration can be done within the Laravel application files.
+    Environment variables for the database connection are configured in the docker-compose.yml file under the laravel service.
+    Additional Laravel configuration can be done within the Laravel application files.
 
-# Nginx Server:
+ Nginx Server:
 
-Nginx configuration can be modified in the nginx/nginx.conf file.
-Server blocks for routing requests are defined in the Nginx configuration.
+    Nginx configuration can be modified in the nginx/nginx.conf file.
+    Server blocks for routing requests are defined in the Nginx configuration.
 
-# MySQL Database:
+ MySQL Database:
 
-MySQL configuration is set in the docker-compose.yml file under the mysql service.
-Additional MySQL configuration can be done through environment variables.
+    MySQL configuration is set in the docker-compose.yml file under the mysql service.
+    Additional MySQL configuration can be done through environment variables.
 
-# Random HTTP Docker Service (Optional):
+ Random HTTP Docker Service (Optional):
 
-Configuration for the random HTTP Docker service can be done in the docker-compose.yml file under the random_http service.
+    Configuration for the random HTTP Docker service can be done in the docker-compose.yml file under the random_http service.
 
 ## Running Tests
 Tests for the Laravel application can be executed within the Laravel container. Follow these steps:
